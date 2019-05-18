@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>NBA All Star Gifs!</title>
+	  <link rel="stylesheet" href="./assets/css/reset.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	  <link rel="stylesheet" href="./assets/css/style.css">
+	  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+	<!--Header with title goes here -->
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1><strong>NBA All Star Gifs!</strong></h1>
+		</div>
+		<div class="row">
+			<div class="col-md-9">
+				<!-- Buttons for Gifs go here-->
+				<div id="athlete-buttons"></div>
+			</div>
+			<div class="col-md-3">
+					<div class="card">
+							<div class="card-body">
+								<!-- Text box to create new buttons goes here -->
+								<form id="form">
+									<label for="athlete-input">Vote For Your Favorite Player</label>
+									<input type="text" id="athlete-input">
+									<input id="add-athlete" type="submit" value="Submit">
+								</form>
+							</div>
+					</div>
+			</div>
+			<!-- Gifs go here -->
+			<div class="row">
+				<div class="col-md-12">
+					<div id="athletes">	
+				</div>
+			</div>
+	  </div>
+	</div>
+<!-- Javascript link goes here -->
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+</html>
